@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainf {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 39px;
+  color: green;
+  font-weight: bold;
+  margin-left: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.5s all ease;
+}
+ul {
+  margin: 1px;
+  margin-right: 100px;
+}
+
+ul li {
+  float: left;
+  padding: 1px 15px;
+  list-style: none;
+}
+ul li a:hover {
+  color: red;
+}
+
+.header {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5aa96abe7e3c3a49f0c7e45e/1521061782941-0GBN3A1PFPMB5TQWOSLZ/Mexican+Restaurant-29.jpg?format=2500w");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200vh;
+}
+
+.content {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content {
+  font-size: 50px;
+}
+
+.content p {
+  padding: 0px 50px;
+  font-size: 20px;
+}
+
+button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 6px;
+  transform: 0.5s all ease;
+  margin-top: 100px;
+}
+
+button:hover {
+  background-color: green;
+  color: red;
+}
+.icons {
+  margin-top: 250px;
+}
+
+/* from here down styling for menu page */
+
+.body-menu {
+  background-image: url("https://media.istockphoto.com/photos/mexican-food-mix-picture-id896165070?k=20&m=896165070&s=612x612&w=0&h=qL-vfoyBGYapL__5XZ7TATxahXYNFMv7sc2cFjFUrxU=");
+  background-color: darkred;
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: 34%;
+}
+
+.heading-two {
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+  padding: 30px 0;
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 30px;
+}
+
+.menu {
+  padding: 0 10px 30px 10px;
+  display: grid;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+.heading {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+.food-items {
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1 fr;
+  border-radius: 15px;
+
+  float: center;
+  width: 35%;
+  padding-left: 100px;
+}
+
+.food-items img {
+  position: relative;
+  width: 35%;
+  border-radius: 15px 15px 0 0;
+}
+h1 {
+  grid-column: 1/-1;
+  text-align: center;
+}
+.details {
+  padding: 20px 10px;
+  display: grid;
+  grid-template-rows: 1 fr 50px;
+  grid-row-gap: 15px;
+}
+.details-sub {
+  font-weight: 600;
+  font-size: 18px;
+}
+.price {
+  text-align: right;
+}
+.details > p {
+  color: black;
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: stretch;
+}
+.buttons-menu {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 60px;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.icons-menu {
+  font-size: 30px;
+  margin-top: 75px;
+  background-color: black;
+  padding-left: 35%;
+  justify-content: space-between;
+  cursor: point;
+}
+
+/* contact css here down */
+
+.contact-section {
+  background-image: url("https://t4.ftcdn.net/jpg/04/26/77/65/360_F_426776511_4DNUnOSEzVKbtqTe8HJ4ROX664x6Q5OL.jpg");
+  padding: 40px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-section {
+  text-align: center;
+  color: #ddd;
+  margin-bottom: 50px;
+}
+
+.border {
+  width: 100px;
+  height: 10px;
+  background: blue;
+  margin: 40px auto;
+}
+
+.contact-form {
+  max-width: 600;
+  margin: 200px;
+  padding: 0 120px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 35px 0;
+  background: white;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 150px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: darkgray;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.contact-form-btn:hover {
+  background: darkred;
+  color: black;
+}
+
+.icons-menu2 {
+  font-size: 30px;
+  margin-top: 150px;
+  background-color: darkred;
+  padding-left: 35%;
+  justify-content: space-between;
+  cursor: point;
+}
